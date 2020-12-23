@@ -1,0 +1,134 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Angular Starter Guide · Technical Interview Handbook</title><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Installation"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Angular Starter Guide · Technical Interview Handbook"/><meta property="og:type" content="website"/><meta property="og:url" content="https://iamvickyav.github.io/"/><meta property="og:description" content="## Installation"/><meta property="og:image" content="https://iamvickyav.github.io/img/final.ico"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://iamvickyav.github.io/img/img.png"/><link rel="shortcut icon" href="/img/final.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/prism.css"/><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/final.ico" alt="Technical Interview Handbook"/><h2 class="headerTitleWithLogo">Technical Interview Handbook</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docker/docker" target="_self">Docker</a></li><li class=""><a href="/java/java" target="_self">Java</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Angular Starter Guide</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="installation"></a><a href="#installation" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installation</h2>
+<pre><code class="hljs">&gt; npm install -g @angular/<span class="hljs-symbol">cli@</span><span class="hljs-number">7.0</span><span class="hljs-number">.3</span>
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="angular-cli-commands"></a><a href="#angular-cli-commands" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Angular CLI Commands</h2>
+<pre><code class="hljs"><span class="hljs-comment">// To generate a new Angular Project</span>
+&gt; ng <span class="hljs-keyword">new</span> <span class="hljs-type">todo</span>
+
+<span class="hljs-comment">// To start the application</span>
+&gt; ng serve
+
+<span class="hljs-comment">// Coding standard check</span>
+<span class="hljs-comment">// Ruled defined in tslint.js</span>
+&gt; ng lint
+
+<span class="hljs-comment">// To build application &amp; generate the artifacts in dist</span>
+&gt; ng build
+
+<span class="hljs-comment">// To run test cases called spec</span>
+<span class="hljs-comment">// File name is *.spec.ts</span>
+&gt; ng test
+
+<span class="hljs-comment">// To run integration test using Selenium</span>
+&gt; ng e2e
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="angular-folder-structure"></a><a href="#angular-folder-structure" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Angular Folder structure</h2>
+<p>src/app - Where Angular Code resides</p>
+<p>src/assets - For images</p>
+<p>src/environment - For multi environment support</p>
+<p>tsconfig.json - For converting TS to JS</p>
+<p>package.json - External frameworks and tools</p>
+<p>node_modeules - where the dependencies specified in package.json get downloaded</p>
+<p>src/main.ts &amp; src/index.html - Default files which get loaded on ng serve command</p>
+<p>src/polyfills.ts - For browser compatibility issues</p>
+<h2><a class="anchor" aria-hidden="true" id="angular-concepts"></a><a href="#angular-concepts" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Angular Concepts</h2>
+<h3><a class="anchor" aria-hidden="true" id="angular-components"></a><a href="#angular-components" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Angular Components</h3>
+<p>Pages are divided into component. Each component is responsible for view, style &amp; code to react to user actions like click on button</p>
+<p>Files are</p>
+<p>.component.html
+.component.css
+.component.ts
+.component.spec.ts</p>
+<h3><a class="anchor" aria-hidden="true" id="how-to-create-component"></a><a href="#how-to-create-component" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How to create Component</h3>
+<p>Using Decarator (Like annotations) called @Component</p>
+<pre><code class="hljs"><span class="hljs-meta">@Component</span>({
+    <span class="hljs-string">selector :</span> <span class="hljs-string">'app-root'</span>,
+    <span class="hljs-string">templateUrl :</span> <span class="hljs-string">'./app.component.html'</span>,
+    <span class="hljs-string">styleUrls :</span> [<span class="hljs-string">'./app.component.css'</span>]
+})
+</code></pre>
+<p>selector - tag name for the component</p>
+<p>To access member varaible (interpolation) = {{ var_name }}</p>
+<pre><code class="hljs">&gt; ng <span class="hljs-keyword">generate</span> component welcome
+</code></pre>
+<p>app.module.ts - gets updates</p>
+<h3><a class="anchor" aria-hidden="true" id="how-to-read-path-variable"></a><a href="#how-to-read-path-variable" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How to read Path Variable</h3>
+<p><strong>app-routing.module.ts</strong></p>
+<pre><code class="hljs css language-typescript"><span class="token keyword">const</span> routes<span class="token operator">:</span> Routes <span class="token operator">=</span> <span class="token punctuation">[</span>
+  <span class="token punctuation">{</span> path<span class="token operator">:</span> <span class="token string">''</span><span class="token punctuation">,</span> component<span class="token operator">:</span> WelcomeComponent <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span> path<span class="token operator">:</span> <span class="token string">'display/:productId'</span><span class="token punctuation">,</span> component<span class="token operator">:</span> ItemDisplayComponent <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">;</span>
+</code></pre>
+<p><strong>ItemDisplayComponent.ts</strong></p>
+<pre><code class="hljs css language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span> Component<span class="token punctuation">,</span> OnInit <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@angular/core'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> ActivatedRoute <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@angular/router'</span><span class="token punctuation">;</span>
+
+@<span class="token function">Component</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  selector<span class="token operator">:</span> <span class="token string">'app-item-display'</span><span class="token punctuation">,</span>
+  templateUrl<span class="token operator">:</span> <span class="token string">'./item-display.component.html'</span><span class="token punctuation">,</span>
+  styleUrls<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'./item-display.component.css'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">ItemDisplayComponent</span> <span class="token keyword">implements</span> <span class="token class-name">OnInit</span> <span class="token punctuation">{</span>
+  <span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="token keyword">private</span> route<span class="token operator">:</span> ActivatedRoute<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+  <span class="token function">ngOnInit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+    <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>route<span class="token punctuation">.</span>snapshot<span class="token punctuation">.</span>params<span class="token punctuation">[</span><span class="token string">'productId'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="make-http-calls"></a><a href="#make-http-calls" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Make HTTP Calls</h3>
+<p><strong>Import HTTP Module in app.module.ts</strong></p>
+<pre><code class="hljs css language-typescript">@<span class="token function">NgModule</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  declarations<span class="token operator">:</span> <span class="token punctuation">[</span>
+    AppComponent<span class="token punctuation">,</span>
+    HeaderComponent<span class="token punctuation">,</span>
+    ItemDisplayComponent<span class="token punctuation">,</span>
+    HomeComponent<span class="token punctuation">,</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  imports<span class="token operator">:</span> <span class="token punctuation">[</span>BrowserModule<span class="token punctuation">,</span> AppRoutingModule<span class="token punctuation">,</span> HttpClientModule<span class="token punctuation">]</span><span class="token punctuation">,</span>
+  providers<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+  bootstrap<span class="token operator">:</span> <span class="token punctuation">[</span>AppComponent<span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p><strong>Import HttpClient in Service</strong></p>
+<pre><code class="hljs css language-typescript"><span class="token keyword">import</span> <span class="token punctuation">{</span> Injectable <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@angular/core'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> HttpClient <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@angular/common/http'</span><span class="token punctuation">;</span>
+
+@<span class="token function">Injectable</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  providedIn<span class="token operator">:</span> <span class="token string">'root'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">HomesuggestionService</span> <span class="token punctuation">{</span>
+  <span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="token keyword">private</span> http<span class="token operator">:</span> HttpClient<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+  <span class="token function">getNewArrivals</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>http<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">'http://localhost:8080/location/test'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p><strong><em>Calling service from a Component</em></strong></p>
+<pre><code class="hljs css language-typescript">@<span class="token function">Component</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  selector<span class="token operator">:</span> <span class="token string">'app-home'</span><span class="token punctuation">,</span>
+  templateUrl<span class="token operator">:</span> <span class="token string">'./home.component.html'</span><span class="token punctuation">,</span>
+  styleUrls<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'./home.component.css'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token keyword">class</span> <span class="token class-name">HomeComponent</span> <span class="token keyword">implements</span> <span class="token class-name">OnInit</span> <span class="token punctuation">{</span>
+  <span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="token keyword">private</span> service<span class="token operator">:</span> HomesuggestionService<span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+
+  <span class="token function">ngOnInit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token keyword">void</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>service<span class="token punctuation">.</span><span class="token function">getNewArrivals</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">subscribe</span><span class="token punctuation">(</span>
+      <span class="token punctuation">(</span>response<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">processResponse</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span><span class="token punctuation">,</span>
+      <span class="token punctuation">(</span>error<span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">processErrorResponse</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span>service<span class="token punctuation">.</span><span class="token function">getBestSellers</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">processResponse</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>response<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token function">processErrorResponse</span><span class="token punctuation">(</span>error<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>error<span class="token punctuation">.</span>error<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#installation">Installation</a></li><li><a href="#angular-cli-commands">Angular CLI Commands</a></li><li><a href="#angular-folder-structure">Angular Folder structure</a></li><li><a href="#angular-concepts">Angular Concepts</a><ul class="toc-headings"><li><a href="#angular-components">Angular Components</a></li><li><a href="#how-to-create-component">How to create Component</a></li><li><a href="#how-to-read-path-variable">How to read Path Variable</a></li><li><a href="#make-http-calls">Make HTTP Calls</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/final.ico" alt="Technical Interview Handbook" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docker.html">Getting Started (or other categories)</a><a href="/doc2.html">Guides (or other categories)</a><a href="/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/about-us">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a><div class="social"><a href="https://twitter.com/iamvickyav" class="twitter-follow-button">Follow @iamvickyav</a></div></div></section><section class="copyright">Copyright © 2020 iamvickyav</section></footer></div><script>window.twttr=(function(d,s, id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js, fjs);t._e = [];t.ready = function(f) {t._e.push(f);};return t;}(document, 'script', 'twitter-wjs'));</script></body></html>
