@@ -1,97 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
 
 <head>
-  <title>Welcome to iamvickyav's Github</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Kavivanar&family=Mogra&family=Pavanam&display=swap"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Kavivanar&family=Pavanam&display=swap"
-    rel="stylesheet">
-  <script src="js/medium-widget.js"></script>
-
-  <script>
-    $(document).ready(function () {
-      $("a").on('click', function (event) {
-
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-
-          // Store hash
-          var hash = this.hash;
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 200, 'swing', function () {
-            $("#down-arrow-div").hide();
-          });
-        }
-      });
-      $(window).scroll(function () {
-        $("#down-arrow-div").hide();
-      });
-    });
-  </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=docs/docker.html" />
+    <script type="text/javascript">
+        window.location.href = 'docker';
+    </script>
+    <title>Interview Prep</title>
 </head>
 
 <body>
-  <div class="jumbotron jumbotron-fluid h-100">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-sm-12">
-          <p class="display-2" style="font-family: 'Mogra', cursive;">Vicky AV</p>
-          <p class="display-4" style="font-family: 'Pavanam', sans-serif;">(விக்கி)</p>
-          <p class="lead">Interested in Java, Groovy, Spring Boot, Angular, Docker, CI/CD & Azure cloud</p>
-          <a href="https://twitter.com/iamvickyav?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large"
-            data-show-count="false">Follow @iamvickyav</a>
-          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <br />
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <img src="images/profile-pic.png" class="img-fluid" alt="Responsive image">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div id="down-arrow-div" class="arrow bounce">
-            <a href="#section2">
-              <i class="fa fa-angle-double-down" style="font-size:48px; color:orangered;"></i>
-            </a>
-          </div>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container" id="section2">
-    <div class="row">
-      <div class="col">
-        <h2 style="font-family: 'Mogra', cursive;">Medium Post (Recent)</h2>
-      </div>
-    </div>
-    <div class="row" style="background-color: white;">
-      <div class="col">
-        <div id="medium-widget">
-          <!-- <script src="https://medium-widget.pixelpoint.io/widget.js"></script> -->
-          <script>MediumWidget.Init({ renderTo: '#medium-widget', params: { "resource": "https://medium.com/@iamvickyav", "postsPerLine": 2, "limit": 8, "picture": "none", "fields": ["claps", "publishAt"], "ratio": "original" } })</script>
-        </div>
-      </div>
-    </div>
-  </div>
+    If you are not redirected automatically, follow this
+    <a href="docker">link</a>.
 </body>
 
 </html>
