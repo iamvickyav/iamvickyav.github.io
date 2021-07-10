@@ -1,0 +1,1 @@
+(self.webpackChunks_2_s_program=self.webpackChunks_2_s_program||[]).push([[713],{7485:function(s){"use strict";s.exports=JSON.parse('{"mysql":{"allTagsPath":"/blog/tags","slug":"mysql","name":"mysql","count":1,"permalink":"/blog/tags/mysql"}}')}}]);
