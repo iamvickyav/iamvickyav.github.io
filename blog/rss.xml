@@ -2,14 +2,14 @@
 <rss version="2.0">
     <channel>
         <title>Student to Software Developer Blog</title>
-        <link>https://your-docusaurus-test-site.com/blog</link>
+        <link>https://iamvicky.github.io/blog</link>
         <description>Student to Software Developer Blog</description>
         <lastBuildDate>Fri, 09 Jul 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Program Schedule]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/schedule</link>
+            <link>https://iamvicky.github.io/blog/schedule</link>
             <guid>schedule</guid>
             <pubDate>Fri, 09 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[| Session Topic | Schedule                         |]]></description>
