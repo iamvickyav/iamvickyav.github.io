@@ -4,15 +4,15 @@
         <title>Student to Software Developer Blog</title>
         <link>https://iamvicky.github.io/blog</link>
         <description>Student to Software Developer Blog</description>
-        <lastBuildDate>Fri, 09 Jul 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Jul 2021 10:18:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Program Schedule]]></title>
             <link>https://iamvicky.github.io/blog/schedule</link>
             <guid>schedule</guid>
-            <pubDate>Fri, 09 Jul 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[| Session Topic | Schedule                         |]]></description>
+            <pubDate>Sat, 10 Jul 2021 10:18:35 GMT</pubDate>
+            <description><![CDATA[<span]]></description>
         </item>
     </channel>
 </rss>
