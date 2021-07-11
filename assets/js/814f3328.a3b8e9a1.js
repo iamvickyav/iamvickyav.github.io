@@ -1,1 +1,0 @@
-(self.webpackChunks_2_s_program=self.webpackChunks_2_s_program||[]).push([[535],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Program Schedule","permalink":"/blog/schedule"}]}')}}]);
